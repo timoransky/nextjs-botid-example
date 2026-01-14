@@ -7,6 +7,10 @@ initBotId({
       method: "POST",
     },
     {
+      path: "*/pages/*",
+      method: "POST",
+    },
+    {
       path: "/pages/*",
       method: "POST",
     },
